@@ -1,4 +1,4 @@
-let a = +prompt("Введите, пожалуйста, число");
+const a = +prompt("Введите, пожалуйста, число");
 
 
 
@@ -50,10 +50,10 @@ alert(a);
 
 let b;
 if (a <= 1 && b >= 3) {
-let sum = a + b;
+const sum = a + b;
 alert (sum);
 } else {
-    let sub = a - b;
+    const sub = a - b;
     alert (sub);
 }
 
